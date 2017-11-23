@@ -1,0 +1,188 @@
+﻿body {
+    background-color: #FFFFFF;
+    color: #202020;
+    font-family: Calibri, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+}
+
+a:link, a:visited {
+    color: #404040;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #Df730e;
+}
+
+h1 {
+    font-size: x-large;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: x-large;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hoverMenu {
+    display: block;
+    position: absolute;
+    background-color: #E6E3DE;
+    border: 1px solid #c6c3bE;
+    padding: 3px;
+    font-size: medium;
+}
+
+header {
+    background: url(../images/header-small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px;
+}
+
+    header .header-content {
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+        header .header-content .header-content-inner {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+.header-filter {
+    position: absolute;
+    width: inherit;
+    min-height: inherit;
+    background-color: #404040;
+    opacity: 0.60;
+    z-index: 0;
+}
+
+.col1 {
+    width: 70px;
+    font-size: x-large;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.col2 {
+    width: auto;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+@media (min-width:768px) {
+    header {
+        min-height: 100%;
+    }
+
+        header .header-content {
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding: 0 50px;
+        }
+
+            header .header-content .header-content-inner {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+                header .header-content .header-content-inner p {
+                    font-size: 25px;
+                    max-width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+}
+
+.facebook-top {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+  .facebook-top > a {
+        display: block;
+        background-color: #3b5998;
+        color: #FFFFFF;
+        border-radius: 100%;
+        outline: none;
+        padding: 0;
+        border: 0px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .facebook-top > a {
+        display: block;
+        background-color: #3b5998;
+        color: #FFFFFF;
+        border-radius: 100%;
+        outline: none;
+        padding: 0;
+        border: 0px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .facebook-top > a:hover {
+        background-color: #344e86;
+        color: #Df730e;
+    }
+
+        .facebook-top > a > i {
+            top: 12px;
+            position: relative;
+        }
+
+
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+    .scroll-top > a {
+        display: block;
+        background-color: #c0c0c0;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        font-size: 20px;
+        line-height: 40px;
+        outline: none;
+        padding: 0;
+        border: 0px;
+    }
+
+        .scroll-top > a > i {
+            position: relative;
+            top: 7px;
+        }
